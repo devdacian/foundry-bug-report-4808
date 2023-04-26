@@ -3,7 +3,7 @@ minimal test case for foundry bug report 4804
 
 forge test -vvv
 
-Run it a few times some runs will pass, but other runs will fail as at a seemingly-random point, the Vault's balance gets set to msg.value instead of being incrementing. If running with -vvv the last output from failed execution will look like:
+Run it a few times some runs will pass, but other runs will fail as at a seemingly-random point, the Vault's balance gets set to msg.value instead of being incremented. If running with -vvv the last output from failed execution will look like:
 
         actor          :  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
         amount         :  10000000000000000000
